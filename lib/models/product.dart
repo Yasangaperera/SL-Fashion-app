@@ -18,26 +18,27 @@ class Product {
   });
 }
 
+
 // Categories: Saree, Batik, Casual, Kids, Sale
 final List<Product> sampleProducts = [
-  Product(
-    id: '2',
-    name: 'Silk Kandyan Saree',
-    price: 8900,
-    image: 'lib/assets/image/Silky kandyan saree.webp',
-    category: 'Saree',
-    description:
-        'Premium silk saree in the classic Kandyan style. Worn at traditional Sinhala ceremonies and Perahera events.',
-  ),
   Product(
     id: '1',
     name: 'Handloom Saree',
     price: 4500,
-    image: 'lib/assets/image/Handloom saree.webp',
+    image: 'assets/image/Handloom_saree.jpg',
     category: 'Saree',
     description:
         'Beautiful handloom saree from Kandy. Traditional design with golden border. Perfect for Avurudu, weddings, and special occasions.',
     isNew: true,
+  ),
+  Product(
+    id: '2',
+    name: 'Silk Kandyan Saree',
+    price: 8900,
+    image: 'assets/image/silky_kandyan_saree.jpg',
+    category: 'Saree',
+    description:
+        'Premium silk saree in the classic Kandyan style. Worn at traditional Sinhala ceremonies and Perahera events.',
   ),
   Product(
     id: '3',

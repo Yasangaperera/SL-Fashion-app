@@ -18,7 +18,7 @@ class ProductViewModel extends ChangeNotifier {
     return _all.where((p) => p.category == _selectedCategory).toList();
   }
 
-  // Featured: show first 4 products on home
+  // first 4 products on home
   List<Product> get featuredProducts => _all.take(4).toList();
 
   // Change category filter
