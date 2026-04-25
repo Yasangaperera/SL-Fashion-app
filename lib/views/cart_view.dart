@@ -1,9 +1,3 @@
-// ============================================================
-// views/cart_view.dart — VIEW (V in MVVM)
-// Reads CartViewModel. All totals come from ViewModel.
-// Shows LKR prices.
-// ============================================================
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../viewmodels/cart_viewmodel.dart';
@@ -42,7 +36,6 @@ class CartView extends StatelessWidget {
                       style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
                   const SizedBox(height: 6),
                   const Text('You have not added any item.',
-                  // "You have not added any items."
                       style: TextStyle(color: Colors.grey)),
                 ],
               ),
