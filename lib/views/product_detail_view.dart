@@ -1,8 +1,3 @@
-// ============================================================
-// views/product_detail_view.dart — VIEW (V in MVVM)
-// Uses LKR currency. Calls CartViewModel.addToCart().
-// ============================================================
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../viewmodels/cart_viewmodel.dart';
