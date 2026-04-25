@@ -1,9 +1,3 @@
-// ============================================================
-// views/home_view.dart — VIEW (V in MVVM)
-// Reads ProductViewModel and CartViewModel.
-// Different layout: horizontal featured cards + tile categories.
-// ============================================================
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../viewmodels/product_viewmodel.dart';
@@ -72,7 +66,6 @@ class _HomeViewState extends State<HomeView> {
 }
 
 // Home tab content
-// ============================================================
 class _HomeContent extends StatelessWidget {
   const _HomeContent();
 
