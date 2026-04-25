@@ -1,7 +1,3 @@
-// ============================================================
-// views/profile_view.dart — VIEW (V in MVVM)
-// Uses a Sri Lankan name and context.
-// ============================================================
 
 import 'package:flutter/material.dart';
 
