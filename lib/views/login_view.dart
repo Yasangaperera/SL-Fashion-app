@@ -1,10 +1,4 @@
-// ============================================================
 // views/login_view.dart
-// ---- VIEW (V in MVVM) ----
-// UI only. Calls AuthViewModel for login logic.
-// Uses Sinhala error messages from the ViewModel.
-// ============================================================
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../viewmodels/auth_viewmodel.dart';
