@@ -1,7 +1,4 @@
-// ============================================================
 // viewmodels/cart_viewmodel.dart
-//
-// ============================================================
 
 import 'package:flutter/foundation.dart';
 import '../models/product.dart';
