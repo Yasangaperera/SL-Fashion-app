@@ -1,9 +1,3 @@
-// ============================================================
-// views/checkout_view.dart — VIEW (V in MVVM)
-// Sri Lankan address fields (Province, District).
-// LKR total from CartViewModel.
-// ============================================================
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../viewmodels/cart_viewmodel.dart';
@@ -79,7 +73,6 @@ class _CheckoutViewState extends State<CheckoutView> {
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
             const SizedBox(height: 8),
             const Text('Your order was received!\nWill deliver soon.',
-            // "Your order was received! Will deliver soon."
                 textAlign: TextAlign.center,
                 style: TextStyle(color: Colors.grey, height: 1.6)),
             const SizedBox(height: 24),
@@ -94,7 +87,7 @@ class _CheckoutViewState extends State<CheckoutView> {
                 minimumSize: const Size(double.infinity, 48),
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
               ),
-              child: const Text('Go to Home'),  // "Go to Home"
+              child: const Text('Go to Home'), 
             ),
           ],
         ),
