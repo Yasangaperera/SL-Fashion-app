@@ -1,12 +1,3 @@
-// ============================================================
-// viewmodels/auth_viewmodel.dart
-// ---- VIEWMODEL (VM in MVVM) ----
-//
-// Holds login & register LOGIC and STATE.
-// Views call methods here — they don't do any logic themselves.
-// extends ChangeNotifier so Views can listen for state changes.
-// ============================================================
-
 import 'package:flutter/foundation.dart';
 
 class AuthViewModel extends ChangeNotifier {
